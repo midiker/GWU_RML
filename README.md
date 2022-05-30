@@ -68,6 +68,8 @@
 
 * the global feature importance for the XGBoost model, with 'loan_to_value_ratio_std', 'property_value_std', and 'debt_to_income_ratio_std' having the highest importance.
 ** ![image](Images/Gobal.png)
+** <img src="Images/Gobal.png" width="48">
+
 
 * **Partial Dependence for Top 3 Most Important Variables**:
 * ![image](Images/Loan.png)
