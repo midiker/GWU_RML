@@ -11,7 +11,7 @@
 * **Primary intended uses**: To predict whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages.
 * **Primary intended users**: Students in GWU DNSC 6290
 * **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
-* **Model implementation code**: [DNSC_6290_Example_Project.ipynb](https://nbviewer.org/github/jphall663/GWU_rml/blob/master/assignments/assignment_2/assign_2_template.ipynb?flush_cache=true)
+
 
 ### Training Data
 
