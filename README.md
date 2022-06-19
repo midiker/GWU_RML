@@ -24,7 +24,7 @@ The MXGB model was designed to address:
 
 * **Accuracy by conducting residual analysis and remediating discovered bugs**
    *  Figure 3 shows the residual analysis that shows if the model struggles to predict when customers will recieve a high-priced loan correctly 
-      * If the 'high_priced 1' value is less than 0.2, the MXGB model is shocked and model must be debugged.
+      * If the 'high_priced 1' value is less than 0.2, the MXGB model is shocked and model must be debugged
 * <img src="Images/Loan.png" width="300">
 
 
