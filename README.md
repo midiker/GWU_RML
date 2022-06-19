@@ -16,7 +16,7 @@
 The MXGB model was designed to address:
 * **Discrimination by testing and remediating using adverse impact ratio (AIR)**
    *  Figure 1 shows a simple random grid with AIR on the x-axis and area under the curve (AUC) on the y-axis which yields various options for accurate and less discriminatory models
-* <img src="Images/AIR.png" width="800">
+* <img src="Images/AIR.png" width="400">
 
 * **Security by conducting a white-hat model extraction attack and identifying vulnerabilities**
    *  Figure 2 shows a stolen decision tree model that creates adversarial examples which allowed to identify vulnerabilities
