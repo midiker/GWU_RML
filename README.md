@@ -93,4 +93,7 @@ The MXGB model was designed to address:
 
 ### Ethical Considerations
 
-**Biases**
+* **Potential negative impacts of using the the MXGB model**:
+   * Not having good appeal procedure for customers who were denied a mortgage that can lead to serious consequences for the customers
+   * Variables that can improve accuracy but can be bais due to structural inequality 
+
