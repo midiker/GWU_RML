@@ -95,5 +95,10 @@ The MXGB model was designed to address:
 
 * **Potential negative impacts of using the the MXGB model**:
    * Not having good appeal procedure for customers who were denied a mortgage that can lead to serious consequences for the customers
-   * Variables that can improve accuracy but can be bais due to structural inequality 
+   * Variables that can improve accuracy but also can be bais due to structural inequality like debt to income ratiosE
+
+* **Potential uncertainties relating to the impacts of using our EBM model**:
+    * Updated packages can change the MXBG model 
+    * Economic events affecting model preformance
+    * Legal implications in a real-word implementation 
 
