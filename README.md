@@ -24,7 +24,7 @@ The MXGB model was designed to address:
 
 * **Accuracy by conducting residual analysis and remediating discovered bugs** [See notebbok](Assignment_5/Assignment_5.ipynb)
    *  Figure 3 shows the residual analysis that shows if the model struggles to predict when customers will recieve a high-priced loan correctly 
-* <img src="Images/Logloss.png" width="400">
+* <img src="Images/Loglosss.png" width="400">
 
 
 ### Training Data
