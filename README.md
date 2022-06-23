@@ -14,17 +14,16 @@
 
 ### MXGB Model Design
 The MXGB model was designed to address:
-* **Discrimination by testing and remediating using adverse impact ratio (AIR)**[See notebbok](Assignment_5/Assignment_5.ipynb)
+* **Discrimination by testing and remediating using adverse impact ratio (AIR)**[See notebbok](Assignment_3/Assignment_3.ipynb)
    *  Figure 1 shows a simple random grid with AIR on the x-axis and area under the curve (AUC) on the y-axis which yields various options for accurate and less discriminatory models
 * <img src="Images/AIR.png" width="400">
 
-* **Security by conducting a white-hat model extraction attack and identifying vulnerabilities**
+* **Security by conducting a white-hat model extraction attack and identifying vulnerabilities**[See notebbok](Assignment_4/Assignment_4.ipynb)
    *  Figure 2 shows a stolen decision tree model that creates adversarial examples which allowed to identify vulnerabilities
 * <img src="Images/stolen.png" width="1000">
 
-* **Accuracy by conducting residual analysis and remediating discovered bugs**
+* **Accuracy by conducting residual analysis and remediating discovered bugs**[See notebbok](Assignment_5/Assignment_5.ipynb)
    *  Figure 3 shows the residual analysis that shows if the model struggles to predict when customers will recieve a high-priced loan correctly 
-      * If the 'high_priced 1' value is less than 0.2, the MXGB model is shocked and model must be debugged
 * <img src="Images/Logloss.png" width="400">
 
 
