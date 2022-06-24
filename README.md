@@ -103,5 +103,6 @@ The MXGB model was designed to address:
     * Legal implications in a real-word implementation 
 
 * **Unexpected Results**:
-   * When conducting a grid search for odel selection via quality and fairness
+   * When conducting a grid search for model selection via quality and fairness, got multiple models with perfect AIR scores of 1
+   * Under a domain shift of simulated recession conditions, the model performed very poorly with very small variance
 
