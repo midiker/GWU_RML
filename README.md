@@ -52,7 +52,7 @@
 * **Number of rows in test data**: 19831
 * **State any differences in columns between training and test data**: None
 
-* **XGBoost is the best model when compared to alternative models, like the penalized general linear model (GLM) and explainable boosting machine (EBM) model, because it is ranked highest on average across metrics and folds however in father debugging and testing it was discovered under a domain shift of simulated recession conditions, the XGboost model performed very poorly with very small variance and predicting the mean. In deployment it is high recommended to us the EMB. The Analysis below shows both models **
+* **XGBoost is the best model when compared to alternative models, like the penalized general linear model (GLM) and explainable boosting machine (EBM) model, because it is ranked highest on average across metrics and folds however in father debugging and testing it was discovered under a domain shift of simulated recession conditions, the XGboost model performed very poorly with very small variance and predicting the mean. In deployment it is high recommended to us the EMB. The Analysis below shows both models**
 * <img src="Images/Ranking.png" width="300">
 
 
@@ -60,10 +60,11 @@
 * **Columns used as inputs in the final model**: 'property_value_std', 'no_intro_rate_period_std', 'loan_amount_std', 'income_std', 'conforming', 'intro_rate_period_std', 'debt_to_income_ratio_std', and 'term_360'
 
 * **columns used as targets in the final model**: 'high_priced'
-* **Type of model**: XGBoost
+* **Type of models**: XGBoost and EBM
 * **Software used to implement the model**: 'xgboost', 'H20', 'interpret.glassbox', 'interpret.perf', 'numpy', 'pandas', 'time', 'matplotlib.pyplot', and 'matplotlib.lines'.
 * **Version of the modeling software**: 'xgboost 1.4.2', 'h20 3.36.1.1', 'interpret 0.2.4', 'numpy 1.18.5', and 'pandas 1.0.5
 * **Hyperparameters or other settings of your model**: 'colsample_bytree': 0.3, 'colsample_bylevel': 0.9, 'eta': 0.005, 'max_depth': 7, 'reg_alpha': 0.05, 'reg_lambda': 0.0005, 'subsample': 0.7, 'min_child_weight': 10, 'gamma': 0.4, 'booster': 'gbtree', 'eval_metric': 'auc', 'monotone_constraints': (1,), 'nthread': 4, 'objective': 'binary:logistic', 'seed': 12345
+* **Hyperparameters for the EBM model include**: 'max_bins': 512, 'max_interaction_bins': 16, 'interactions': 10, 'outer_bags': 4, 'inner_bags': 0, 'learning_rate': 0.001, 'validation_size': 0.25, 'min_samples_leaf': 5, 'max_leaves': 5, 'early_stopping_rounds': 100.0, 'n_jobs': NTHREAD, 'random_state': SEED.
 
 ### Quantitative Analysis
 
@@ -103,6 +104,5 @@ The MXGB model was designed to address:
     * Legal implications in a real-word implementation 
 
 * **Unexpected Results**:
-   * When conducting a grid search for model selection via quality and fairness, got multiple models with perfect AIR scores of 1
-   * Under a domain shift of simulated recession conditions, the model performed very poorly with very small variance
+   * When conducting a grid search for model selection via quality and fairness, got multiple models with perfect AIR scores of 1 in the XGBoost model
 
