@@ -12,20 +12,6 @@
 * **Primary intended users**: Students in GWU DNSC 6290
 * **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
-### MXGB Model Design
-The MXGB model was designed to address:
-* **Discrimination by testing and remediating using adverse impact ratio (AIR)** [See notebbok](Assignment_3/Assignment_3.ipynb)
-   *  Figure 1 shows a simple random grid with AIR on the x-axis and area under the curve (AUC) on the y-axis which yields various options for accurate and less discriminatory models
-* <img src="Images/AIR.png" width="400">
-
-* **Security by conducting a white-hat model extraction attack and identifying vulnerabilities** [See notebbok](Assignment_4/Assignment_4.ipynb)
-   *  Figure 2 shows a stolen decision tree model that creates adversarial examples which allowed to identify vulnerabilities
-* <img src="Images/stolen.png" width="1000">
-
-* **Accuracy by conducting residual analysis and remediating discovered bugs** [See notebbok](Assignment_5/Assignment_5.ipynb)
-   *  Figure 3 shows the residual analysis that shows if the model struggles to predict when customers will recieve a high-priced loan correctly 
-* <img src="Images/Loglosss.png" width="400">
-
 
 ### Training Data
 
@@ -66,6 +52,10 @@ The MXGB model was designed to address:
 * **Number of rows in test data**: 19831
 * **State any differences in columns between training and test data**: None
 
+* **XGBoost is the best model when compared to alternative models, like the penalized general linear model (GLM) and explainable boosting machine (EBM) model, because it is ranked highest on average across metrics and folds however in father debugging and testing it was discovered under a domain shift of simulated recession conditions, the XGboost model performed very poorly with very small variance and predicting the mean. In deployment it is high recommended to us the EMB. The Analysis below shows both models **
+* <img src="Images/Ranking.png" width="300">
+
+
 ### Model Details
 * **Columns used as inputs in the final model**: 'property_value_std', 'no_intro_rate_period_std', 'loan_amount_std', 'income_std', 'conforming', 'intro_rate_period_std', 'debt_to_income_ratio_std', and 'term_360'
 
@@ -76,9 +66,19 @@ The MXGB model was designed to address:
 * **Hyperparameters or other settings of your model**: 'colsample_bytree': 0.3, 'colsample_bylevel': 0.9, 'eta': 0.005, 'max_depth': 7, 'reg_alpha': 0.05, 'reg_lambda': 0.0005, 'subsample': 0.7, 'min_child_weight': 10, 'gamma': 0.4, 'booster': 'gbtree', 'eval_metric': 'auc', 'monotone_constraints': (1,), 'nthread': 4, 'objective': 'binary:logistic', 'seed': 12345
 
 ### Quantitative Analysis
-* **XGBoost is the best model when compared to alternative models, like the penalized general linear model (GLM) and explainable boosting machine (EBM) model, because it is ranked highest on average across metrics and folds**
-* <img src="Images/Ranking.png" width="300">
 
+The MXGB model was designed to address:
+* **Discrimination by testing and remediating using adverse impact ratio (AIR)** [See notebook](Assignment_3/Assignment_3.ipynb)
+   *  Figure 1 shows a simple random grid with AIR on the x-axis and area under the curve (AUC) on the y-axis which yields various options for accurate and less discriminatory models
+* <img src="Images/AIR.png" width="400">
+
+* **Security by conducting a white-hat model extraction attack and identifying vulnerabilities** [See notebbok](Assignment_4/Assignment_4.ipynb)
+   *  Figure 2 shows a stolen decision tree model that creates adversarial examples which allowed to identify vulnerabilities
+* <img src="Images/stolen.png" width="1000">
+
+* **Accuracy by conducting residual analysis and remediating discovered bugs** [See notebbok](Assignment_5/Assignment_5.ipynb)
+   *  Figure 3 shows the residual analysis that shows if the model struggles to predict when customers will recieve a high-priced loan correctly 
+* <img src="Images/Loglosss.png" width="400">
 
 * **Global feature importance**:
 
