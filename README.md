@@ -87,7 +87,8 @@ The MXGB model was designed to address:
 
 * **Accuracy by conducting residual analysis and remediating discovered bugs** [See MXGB notebook](Assignment_5/Assignment_5_XGB.ipynb) & [See EBM notebook](Assignment_5/Assignment_5_EBM.ipynb)
    *  Figure 3 shows the residual analysis that shows if the model struggles to predict when customers will recieve a high-priced loan correctly 
-* <img src="Images/Loglosss.png" width="400">
+* <img src="Images/Loglosss.png" width="400">        <img src="Images/Loglosss_ebm.png" width="400">
+      MXBB                                              EMB
 
 * **Global feature importance**:
 
