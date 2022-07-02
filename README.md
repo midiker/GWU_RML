@@ -76,6 +76,14 @@ The MXGB model was designed to address:
 * **Security by conducting a white-hat model extraction attack and identifying vulnerabilities** [See MXGB notebook](Assignment_4/Assignment_4_xgb.ipynb) & [See EBM notebook](Assignment_4/Assignment_4_EBM.ipynb)
    *  Figure 2 shows a stolen decision tree model that creates adversarial examples which allowed to identify vulnerabilities
 * <img src="Images/stolen.png" width="1000">
+<p align="center">
+    XGBoost
+</p>
+
+* <img src="Images/Stolen_ebm.png" width="1000">
+<p align="center">
+    EBM
+</p>
 
 * **Accuracy by conducting residual analysis and remediating discovered bugs** [See MXGB notebook](Assignment_5/Assignment_5_XGB.ipynb) & [See EBM notebook](Assignment_5/Assignment_5_EBM.ipynb)
    *  Figure 3 shows the residual analysis that shows if the model struggles to predict when customers will recieve a high-priced loan correctly 
