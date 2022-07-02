@@ -80,7 +80,7 @@ The MXGB model was designed to address:
     XGBoost
 </p>
 
-* <img src="Images/Stolen_ebm.png" width="1000">
+* <img src="Images/Stodel_ebm.png" width="1000" height='350'>
 <p align="center">
     EBM
 </p>
