@@ -92,7 +92,7 @@ The MXGB model was designed to address:
 
 * **Global feature importance**:
 
-* the global feature importance for the XGBoost model, with 'loan_to_value_ratio_std', 'property_value_std', and 'debt_to_income_ratio_std' having the highest importance. [See notebbok](Assignment_2/Assignment_2.ipynb)
+* the global feature importance for the XGBoost model, with 'loan_to_value_ratio_std', 'property_value_std', and 'debt_to_income_ratio_std' having the highest importance. [See notebbok](Assignment_2/Assignment 2.ipynb)
 * <img src="Images/Gobal.png" width="300">
 
 
