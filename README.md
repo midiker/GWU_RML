@@ -68,6 +68,22 @@
 
 ### Quantitative Analysis
 
+| Partition | AUC | Model |
+| -------------|--------|------|
+| Valid | 0.81 | MXBG |
+| Compare v. Control | AIR | MXBG |
+| ----------------------------|-------|----------|
+| Asian people vs. White people | 1.0 |  MXBG |
+|Black people vs. White people| 1.0 | MXBG |
+|Females vs. Males | 1.0 |  MXBG |
+| -------------|--------|------|
+| Valid | 0.7846 | EMB |
+| Compare v. Control | AIR | EBM |
+| ----------------------------|-------|----------|
+| Asian people vs. White people | 1.57 |  EBM |
+|Black people vs. White people| 0.806 | EBM |
+|Females vs. Males | 0.958 |  EBM |
+
 The MXGB model was designed to address:
 * **Discrimination by testing and remediating using adverse impact ratio (AIR)** [See MXGB notebook](Assignment_3/Assignment_3_MXGB.ipynb) & [See EBM notebook](Assignment_3/Assignment_3_EBM.ipynb)
    *  Figure 1 shows a simple random grid with AIR on the x-axis and area under the curve (AUC) on the y-axis which yields various options for accurate and less discriminatory models
