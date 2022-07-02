@@ -99,7 +99,7 @@ The MXGB model was designed to address:
 * **Partial Dependence for Top 3 Most Important Variables**:
 * <img src="Images/Value.png" width="600">
 * <img src="Images/Property.png" width="600">
-* <img src="Images/Debt.png" width="300">
+* <img src="Images/Debt.png" width="600">
 
 ### Ethical Considerations
 
@@ -114,4 +114,6 @@ The MXGB model was designed to address:
 
 * **Unexpected Results**:
    * When conducting a grid search for model selection via quality and fairness, got multiple models with perfect AIR scores of 1 in the XGBoost model
+
+* Although this model was tested and remediated for bias, there is much more to bias than models and data, and this model should be monitored for bias issues moving forward
 
