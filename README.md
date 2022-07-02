@@ -73,7 +73,7 @@ The MXGB model was designed to address:
    *  Figure 1 shows a simple random grid with AIR on the x-axis and area under the curve (AUC) on the y-axis which yields various options for accurate and less discriminatory models
 * <img src="Images/AIR.png" width="400">
 
-* **Security by conducting a white-hat model extraction attack and identifying vulnerabilities** [See notebbok](Assignment_4/Assignment_4.ipynb)
+* **Security by conducting a white-hat model extraction attack and identifying vulnerabilities** [See MXGB notebook](Assignment_4/Assignment_4_xgb.ipynb) & [See EBM notebook](Assignment_4/Assignment_4_EBM.ipynb)
    *  Figure 2 shows a stolen decision tree model that creates adversarial examples which allowed to identify vulnerabilities
 * <img src="Images/stolen.png" width="1000">
 
