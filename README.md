@@ -92,7 +92,7 @@ The MXGB model was designed to address:
 
 * **Global feature importance**:
 
-* the global feature importance for the XGBoost model, with 'loan_to_value_ratio_std', 'property_value_std', and 'debt_to_income_ratio_std' having the highest importance. [See notebbok](Assignment_2/Assignment 2.ipynb)
+* the global feature importance for the XGBoost model, with 'loan_to_value_ratio_std', 'property_value_std', and 'debt_to_income_ratio_std' having the highest importance. [See notebbok](Assignment_2/Assignment_2.ipynb)
 * <img src="Images/Gobal.png" width="300">
 
 
@@ -103,11 +103,11 @@ The MXGB model was designed to address:
 
 ### Ethical Considerations
 
-* **Potential negative impacts of using the the MXGB model**:
+* **Potential negative impacts of using the MXGB and EBM model**:
    * Not having good appeal procedure for customers who were denied a mortgage that can lead to serious consequences for the customers
-   * Variables that can improve accuracy but also can be bais due to structural inequality like debt to income ratiosE
+   * Variables that can improve accuracy but also can be bais due to structural inequality like debt to income ratios
 
-* **Potential uncertainties relating to the impacts of using our MXGB model**:
+* **Potential uncertainties relating to the impacts of using our MXGB and EBM model**:
     * Updated packages can change the MXBG model 
     * Economic events affecting model preformance
     * Legal implications in a real-word implementation 
