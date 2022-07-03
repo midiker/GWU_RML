@@ -52,7 +52,7 @@
 * **Number of rows in test data**: 19831
 * **State any differences in columns between training and test data**: Test data not have the 'high_priced' column
 
-* **XGBoost is the best model when compared to alternative models, like the penalized general linear model (GLM) and explainable boosting machine (EBM) model, because it is ranked highest on average across metrics and folds however in father debugging and testing it was discovered under a domain shift of simulated recession conditions, the XGboost model performed very poorly with very small variance and predicting the mean. In deployment it is high recommended to us the EBM. The Analysis below shows both models**
+* **Model Ranking**: XGBoost is the best model when compared to alternative models, like the penalized general linear model (GLM) and explainable boosting machine (EBM) model, because it is ranked highest on average across metrics and folds however in father debugging and testing it was discovered under a domain shift of simulated recession conditions, the XGboost model performed very poorly with very small variance and predicting the mean. In deployment it is high recommended to use the EBM model. The Analysis below shows both models
  <p align="center">
    <img src="Images/Ranking.png" width="300">
 </p>
