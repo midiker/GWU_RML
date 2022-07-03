@@ -86,7 +86,7 @@
 |Black people vs. White people| 0.806 | EBM |
 |Females vs. Males | 0.958 |  EBM |
 
-The MXGB model was designed to address:
+The models were designed to address:
 * **Discrimination by testing and remediating using adverse impact ratio (AIR)** [See MXGB notebook](Assignment_3/Assignment_3_MXGB.ipynb) & [See EBM notebook](Assignment_3/Assignment_3_EBM.ipynb)
    *  Figure 1 shows a simple random grid with AIR on the x-axis and area under the curve (AUC) on the y-axis which yields various options for accurate and less discriminatory models
 <p align="center">
