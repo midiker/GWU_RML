@@ -137,7 +137,7 @@ The models were designed to address:
    * Variables that can improve accuracy but also can be bais due to structural inequality like debt to income ratios
 
 * **Potential uncertainties relating to the impacts of using our MXGB and EBM model**:
-    * Updated packages can change the MXBG model 
+    * Updated packages can change the model 
     * Economic events affecting model preformance
     * Legal implications in a real-word implementation 
 
