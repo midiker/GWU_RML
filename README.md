@@ -53,7 +53,9 @@
 * **State any differences in columns between training and test data**: Test data not have the 'high_priced' column
 
 * **XGBoost is the best model when compared to alternative models, like the penalized general linear model (GLM) and explainable boosting machine (EBM) model, because it is ranked highest on average across metrics and folds however in father debugging and testing it was discovered under a domain shift of simulated recession conditions, the XGboost model performed very poorly with very small variance and predicting the mean. In deployment it is high recommended to us the EBM. The Analysis below shows both models**
-* <img src="Images/Ranking.png" width="300">
+ <p align="center">
+   <img src="Images/Ranking.png" width="300">
+</p>
 
 
 ### Model Details
@@ -87,35 +89,46 @@
 The MXGB model was designed to address:
 * **Discrimination by testing and remediating using adverse impact ratio (AIR)** [See MXGB notebook](Assignment_3/Assignment_3_MXGB.ipynb) & [See EBM notebook](Assignment_3/Assignment_3_EBM.ipynb)
    *  Figure 1 shows a simple random grid with AIR on the x-axis and area under the curve (AUC) on the y-axis which yields various options for accurate and less discriminatory models
-* <img src="Images/AIR.png" width="400">                               <img src="Images/AIR_ebm.png" width="410">
+<p align="center">
+    <img src="Images/AIR.png" width="400">                               <img src="Images/AIR_ebm.png" width="410">
+</p>
+
 
 * **Security by conducting a white-hat model extraction attack and identifying vulnerabilities** [See MXGB notebook](Assignment_4/Assignment_4_xgb.ipynb) & [See EBM notebook](Assignment_4/Assignment_4_EBM.ipynb)
    *  Figure 2 shows a stolen decision tree model that creates adversarial examples which allowed to identify vulnerabilities
-* <img src="Images/stolen.png" width="1000">
+ <img src="Images/stolen.png" width="1000">
 <p align="center">
     XGBoost
 </p>
 
-* <img src="Images/Stodel_ebm.png" width="1000" height='350'>
+<img src="Images/Stodel_ebm.png" width="1000" height='350'>
 <p align="center">
     EBM
 </p>
 
 * **Accuracy by conducting residual analysis and remediating discovered bugs** [See MXGB notebook](Assignment_5/Assignment_5_XGB.ipynb) & [See EBM notebook](Assignment_5/Assignment_5_EBM.ipynb)
    *  Figure 3 shows the residual analysis that shows if the model struggles to predict when customers will recieve a high-priced loan correctly 
-* <img src="Images/Loglosss.png" width="400">        <img src="Images/Logloss_ebm.png" width="400">
-*   MXGB                                                                       EBM
+ <p align="center">
+    <img src="Images/Loglosss.png" width="425"> <img src="Images/Logloss_ebm.png" width="400"> <br /> 
+   XGBoost&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   EBM 
+</p>      
+   
 
 * **Global feature importance**:
 
 * the global feature importance for the XGBoost model, with 'loan_to_value_ratio_std', 'property_value_std', and 'debt_to_income_ratio_std' having the highest importance. [See notebook](Assignment_2/Assignment_2.ipynb)
-* <img src="Images/Global.png" width="600">
+ <p align="center">
+    <img src="Images/Global.png" width="600">
+</p>
 
 
 * **Partial Dependence for Top 3 Most Important Variables**:
-* <img src="Images/Value.png" width="600">
-* <img src="Images/Property.png" width="600">
-* <img src="Images/Debt.png" width="600">
+  <p align="center">
+     <img src="Images/Value.png" width="600">
+     <img src="Images/Property.png" width="600">
+     <img src="Images/Debt.png" width="600">
+</p>
+
 
 ### Ethical Considerations
 
